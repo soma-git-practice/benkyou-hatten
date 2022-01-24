@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>モーダルウィンドウの練習</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/styles/destyle.css"
+    />
+    <link rel="stylesheet" href="resources/styles/style.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="modal">
+      <button class="close-button">
+        <svg
+          version="1.1"
+          class="close-button-icon-wrapper"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 512 512"
+          xml:space="preserve"
+        >
+          <g>
+            <polygon
+              class="close-button-icon"
+              points="512,52.535 459.467,0.002 256.002,203.462 52.538,0.002 0,52.535 203.47,256.005 0,459.465 
+		          52.533,511.998 256.002,308.527 459.467,511.998 512,459.475 308.536,256.005 	"
+            ></polygon>
+          </g>
+        </svg>
+      </button>
+      <h2 class="modal-title">メニュー１</h2>
+    </div>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-inner">
+          <h1 class="header-logo">LOGO</h1>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-list-item header-nav-list-item_marginR20">
+                <a href="#menu1" class="header-nav-list-item-link">
+                  メニュー１</a
+                >
+              </li>
+              <li class="header-nav-list-item header-nav-list-item_marginR20">
+                <a href="" class="header-nav-list-item-link"> メニュー２</a>
+              </li>
+              <li class="header-nav-list-item">
+                <a href="" class="header-nav-list-item-link"> メニュー３</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <div class="menu1-wrapper" id="menu1">
+          <h2 class="main-title">メニュー１</h2>
+          <section class="Section Section_bm20">
+            <button class="section-button">詳しく見る</button>
+          </section>
+          <section class="Section Section_bm20">
+            <button class="section-button">詳しく見る</button>
+          </section>
+          <section class="Section Section_bm20">
+            <button class="section-button">詳しく見る</button>
+          </section>
+          <section class="Section">
+            <button class="section-button">詳しく見る</button>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="resources/js/main.js"></script>
+  </body>
+</html>
